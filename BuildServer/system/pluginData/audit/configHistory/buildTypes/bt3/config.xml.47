@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b7494460-00ba-420b-89b7-57a940d38c3a" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Simple Build</name>
+  <description />
+  <settings ref="MovieDatabase_BuildAndDeploy">
+    <parameters />
+    <build-runners order="RUNNER_14, RUNNER_15" />
+    <vcs-settings>
+      <vcs-entry-ref root-id="MovieDatabase_SAxel" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+          <param name="triggerRules"><![CDATA[-:package.json
+-:bower.json]]></param>
+        </parameters>
+      </build-trigger>
+    </build-triggers>
+    <cleanup />
+  </settings>
+</build-type>
+

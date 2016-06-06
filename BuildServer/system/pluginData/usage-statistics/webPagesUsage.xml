@@ -1,0 +1,128 @@
+<root>
+  <page path="/">
+    <usage userId="1" timestamp="1464695345167" />
+  </page>
+  <page path="/admin/admin.html">
+    <usage userId="1" timestamp="1464689355744" />
+  </page>
+  <page path="/admin/attachBuildTypeVcsRoots.html">
+    <usage userId="1" timestamp="1464682107854" />
+  </page>
+  <page path="/admin/copyBuildStep.html">
+    <usage userId="1" timestamp="1464711774128" />
+  </page>
+  <page path="/admin/copyBuildType.html">
+    <usage userId="1" timestamp="1464709351377" />
+  </page>
+  <page path="/admin/createBuildType.html">
+    <usage userId="1" timestamp="1464712104695" />
+  </page>
+  <page path="/admin/createProject.html">
+    <usage userId="1" timestamp="1464681736011" />
+  </page>
+  <page path="/admin/createTemplate.html">
+    <usage userId="1" timestamp="1464711726520" />
+  </page>
+  <page path="/admin/discoverRunners.html">
+    <usage userId="1" timestamp="1464682124574" />
+  </page>
+  <page path="/admin/editBuild.html">
+    <usage userId="1" timestamp="1464712341841" />
+  </page>
+  <page path="/admin/editBuildFeatures.html">
+    <usage userId="1" timestamp="1464711984670" />
+  </page>
+  <page path="/admin/editBuildRunners.html">
+    <usage userId="1" timestamp="1464712365019" />
+  </page>
+  <page path="/admin/editBuildTypeVcsRoots.html">
+    <usage userId="1" timestamp="1464710098160" />
+  </page>
+  <page path="/admin/editDependencies.html">
+    <usage userId="1" timestamp="1464711485145" />
+  </page>
+  <page path="/admin/editProject.html">
+    <usage userId="1" timestamp="1464712332539" />
+  </page>
+  <page path="/admin/editProject.html?tab=BuildsSchedule">
+    <usage userId="1" timestamp="1464707173698" />
+  </page>
+  <page path="/admin/editProject.html?tab=projectGeneralTab">
+    <usage userId="1" timestamp="1464708498661" />
+  </page>
+  <page path="/admin/editProject.html?tab=projectParams">
+    <usage userId="1" timestamp="1464708495922" />
+  </page>
+  <page path="/admin/editProject.html?tab=projectVcsRoots">
+    <usage userId="1" timestamp="1464708463039" />
+  </page>
+  <page path="/admin/editProject.html?tab=versionedSettings">
+    <usage userId="1" timestamp="1464707188961" />
+  </page>
+  <page path="/admin/editRunType.html">
+    <usage userId="1" timestamp="1464712017556" />
+  </page>
+  <page path="/admin/editTriggers.html">
+    <usage userId="1" timestamp="1464711623750" />
+  </page>
+  <page path="/admin/editVcsRoot.html">
+    <usage userId="1" timestamp="1464707154961" />
+  </page>
+  <page path="/agents.html">
+    <usage userId="1" timestamp="1464710558238" />
+  </page>
+  <page path="/allProjects.html">
+    <usage userId="1" timestamp="1464700833584" />
+  </page>
+  <page path="/buildTypePopup.html">
+    <usage userId="1" timestamp="1464688961124" />
+  </page>
+  <page path="/overview.html">
+    <usage userId="1" timestamp="1464708881842" />
+  </page>
+  <page path="/profile.html">
+    <usage userId="1" timestamp="1464683516205" />
+  </page>
+  <page path="/project.html">
+    <usage userId="1" timestamp="1464710569344" />
+  </page>
+  <page path="/project.html?tab=projectOverview">
+    <usage userId="1" timestamp="1464710858016" />
+  </page>
+  <page path="/queue.html">
+    <usage userId="1" timestamp="1464708691970" />
+  </page>
+  <page path="/showJsp.html">
+    <usage userId="1" timestamp="1464710075436" />
+  </page>
+  <page path="/vcsSettings.html">
+    <usage userId="1" timestamp="1464681700283" />
+  </page>
+  <page path="/versionedSettingsStatus.html">
+    <usage userId="1" timestamp="1464707222256" />
+  </page>
+  <page path="/viewLog.html">
+    <usage userId="1" timestamp="1464706964145" />
+  </page>
+  <page path="/viewLog.html?tab=buildChangesDiv">
+    <usage userId="1" timestamp="1464710450581" />
+  </page>
+  <page path="/viewLog.html?tab=buildLog">
+    <usage userId="1" timestamp="1464710440555" />
+  </page>
+  <page path="/viewLog.html?tab=buildParameters">
+    <usage userId="1" timestamp="1464689798310" />
+  </page>
+  <page path="/viewLog.html?tab=buildResultsDiv">
+    <usage userId="1" timestamp="1464710423762" />
+  </page>
+  <page path="/viewType.html">
+    <usage userId="1" timestamp="1464710870591" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeSettings">
+    <usage userId="1" timestamp="1464694670547" />
+  </page>
+  <page path="/viewType.html?tab=pendingChangesDiv">
+    <usage userId="1" timestamp="1464710852976" />
+  </page>
+</root>

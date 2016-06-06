@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="32f474b2-1f82-4d3a-8705-5ca81a011b0c" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Build and Deploy</name>
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_14" name="Grunt" type="jonnyzzz.grunt">
+        <parameters>
+          <param name="jonnyzzz.grunt.mode" value="global" />
+          <param name="jonnyzzz.grunt.tasks" value="build" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_15" name="Deploy" type="ssh-deploy-runner">
+        <parameters>
+          <param name="jetbrains.buildServer.deployer.sourcePath" value="dist/** =&gt; /" />
+          <param name="jetbrains.buildServer.deployer.ssh.transport" value="jetbrains.buildServer.deployer.ssh.transport.scp" />
+          <param name="jetbrains.buildServer.deployer.targetUrl" value="54.200.203.219" />
+          <param name="jetbrains.buildServer.sshexec.authMethod" value="DEFAULT_KEY" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings />
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</template>
+
