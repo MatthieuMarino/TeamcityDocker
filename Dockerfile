@@ -14,7 +14,7 @@ RUN mkdir .BuildServer
 RUN mkdir .BuildServer/plugins
 COPY jonnyzzz.node.zip .BuildServer/plugins/
 COPY deploy-runner.zip .BuildServer/plugins/
-COPY BuildServer/* .BuildServer/
+COPY BuildServer/ .BuildServer/
 ENV TEAMCITY_DATA_PATH=/home/.BuildServer
 RUN tar xf TeamCity*.gz
 EXPOSE 8111
